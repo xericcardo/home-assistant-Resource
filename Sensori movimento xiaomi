@@ -1,0 +1,16 @@
+- alias: ir ingresso
+  trigger:
+    platform: state
+    entity_id: binary_sensor.motion_sensor_XXXXXXXXXXXXX
+    from: 'off'
+    to: 'on'
+  condition:
+    - condition: time
+      after: '20:00:00'
+      before: '02:00:00'
+  action: 
+    - service: light.turn_on
+      entity_id: light.yeelight_white_XXXXXXXXXXXXX
+    - delay: '00:01:00' 
+    - service: light.turn_off
+      entity_id: light.yeelight_white_XXXXXXXXXXXXX
