@@ -4,7 +4,7 @@ Gruppo su telegram   https://t.me/HomeAssistant
 
 # Tutorial 
 https://www.vincenzocaputo.com
-
+https://home-assistant.it/
 
 ###############################################
 #### Personalizzazione 
