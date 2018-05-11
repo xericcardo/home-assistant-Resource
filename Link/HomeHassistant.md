@@ -7,6 +7,8 @@ https://www.vincenzocaputo.com
 
 https://home-assistant.it/
 
+https://broesie.github.io/tutorials/hass/overview/
+
 #### Personalizzazione 
 ###############################################
 
