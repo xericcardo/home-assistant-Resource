@@ -1,0 +1,42 @@
+# queste sono tre automazioni con le tre modalità di pressione salvatele e studiale
+
+- alias: pulsante 1
+  trigger:
+    platform: event
+    event_type: click
+    event_data:
+      entity_id: binary_sensor.switch_XXXXXXXXXXXX
+      click_type: single
+  action:
+    - service: light.toggle
+      entity_id: light.yeelight_strip_XXXXXXXXXXXX
+    - service: switch.toggle
+      entity_id: switch.lampada_robot
+
+- alias: pulsante 2
+  trigger:
+    platform: event
+    event_type: click
+    event_data:
+      entity_id: binary_sensor.switch_XXXXXXXXXXXX
+      click_type: double
+  action:
+    - service: switch.toggle
+      entity_id: switch.lampada_divano
+
+- alias: pulsante 3
+  trigger:
+    platform: event
+    event_type: click
+    event_data:
+      entity_id: binary_sensor.switch_XXXXXXXXXXXX
+      click_type: long_click_press
+  action:
+    - service: light.toggle
+      entity_id: light.yeelight_rgb_XXXXXXXXXXXX
+    - service: light.toggle
+      entity_id: light.yeelight_strip_XXXXXXXXXXXX
+    - service: switch.toggle
+      entity_id: switch.lampada_robot
+    - service: script.turn_on
+      entity_id: script.strip_led_rgb
