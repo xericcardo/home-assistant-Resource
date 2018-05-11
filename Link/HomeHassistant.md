@@ -9,10 +9,23 @@ https://home-assistant.it/
 
 https://broesie.github.io/tutorials/hass/overview/
 
+https://www.yaub.it/category/domotica/homeassistant/
+
+https://www.itchsblog.it/
+
+#### Installazione
+http://www.tanzolab.it/home_assistant
+
 #### Personalizzazione 
 
 Linee orrizontali nei box:  https://github.com/covrig/homeassistant-hline
 
 Pannello di controllo : http://reformedreality.com/home-assistant-control-panel
+
+#### Rilevamento presenza
+https://philhawthorne.com/making-home-assistants-presence-detection-not-so-binary/
+
+#### Varie
+
 
 
