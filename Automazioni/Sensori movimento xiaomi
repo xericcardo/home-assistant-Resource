@@ -1,3 +1,5 @@
+# by Luigi Duchi
+
 - alias: ir ingresso
   trigger:
     platform: state
