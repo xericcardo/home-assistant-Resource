@@ -10,8 +10,9 @@ https://home-assistant.it/
 https://broesie.github.io/tutorials/hass/overview/
 
 #### Personalizzazione 
-###############################################
 
-Linee orrizontali nei box  https://github.com/covrig/homeassistant-hline
+Linee orrizontali nei box:  https://github.com/covrig/homeassistant-hline
+
+Pannello di controllo : http://reformedreality.com/home-assistant-control-panel
 
 
