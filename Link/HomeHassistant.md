@@ -7,7 +7,6 @@ https://www.vincenzocaputo.com
 
 https://home-assistant.it/
 
-###############################################
 #### Personalizzazione 
 ###############################################
 
