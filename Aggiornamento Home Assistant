@@ -1,0 +1,19 @@
+### AGGIORNAMENTO HA
+
+Per aggiornare il sistema all'ultima versione disponibile di HA basterà aprire un terminale su Raspberry e digitare le seguenti stringhe:
+
+cd /srv
+
+sudo chown homeassistant:homeassistant homeassistant
+
+sudo su -s /bin/bash homeassistant
+
+cd /srv/homeassistant
+
+python3 -m venv . (attenzione ricordatevi il punto)
+
+source bin/activate
+
+pip3 install --upgrade homeassistant
+
+alla fine dell'aggiornamento digitate exit e fate un riavvio completo (sudo reboot)
