@@ -1,0 +1,90 @@
+# by @ghizmo1982
+- alias: benvenuta marta
+  initial_state: true
+  trigger:
+    - platform: state
+      entityid: binarysensor.doorwindowsensor_158d00012d77c4
+      to: 'on'
+  condition:
+    - condition: state 
+      entityid: inputboolean.martaappenaentrata
+      state: 'on'
+    - condition: state 
+      entityid: inputboolean.gigiappenaentrato
+      state: 'off'
+  action:
+    - service: inputboolean.turnoff
+      entityid: inputboolean.martaappenaentrata
+    - service: tts.google_say
+      entityid: mediaplayer.piloty
+      data: 
+        message: 'finalmente sei a casa governante'
+
+- alias: Marta appena entrata
+  initial_state: true
+  trigger:
+    - platform: state
+      entityid: devicetracker.marta
+      to: 'home'
+  action:
+    - service: inputboolean.turnon
+      entityid: inputboolean.martaappenaentrata      
+    - delay: "00:03:00"
+    - service: inputboolean.turnoff
+      entityid: inputboolean.martaappenaentrata
+- alias: benvenuto gigi
+  initial_state: true
+  trigger:
+    - platform: state
+      entityid: binarysensor.doorwindowsensor_158d00012d77c4
+      to: 'on'
+  condition:
+    - condition: state 
+      entityid: inputboolean.gigiappenaentrato
+      state: 'on'
+    - condition: state 
+      entityid: inputboolean.martaappenaentrata
+      state: 'off'
+  action:
+    - service: inputboolean.turnoff
+      entityid: inputboolean.gigiappenaentrato
+    - service: tts.google_say
+      entityid: mediaplayer.piloty
+      data: 
+        message: 'finalmente sei a casa mio maestro'
+
+- alias: Gigi appena entrato
+  initial_state: true
+  trigger:
+    - platform: state
+      entityid: devicetracker.gigi
+      to: 'home'
+  action:
+    - service: inputboolean.turnon
+      entityid: inputboolean.gigiappenaentrato      
+    - delay: "00:03:00"
+    - service: inputboolean.turnoff
+      entityid: inputboolean.gigiappenaentrato
+
+- alias: benvenuti entrambi
+  initial_state: true
+  trigger:
+    - platform: state
+      entityid: binarysensor.doorwindowsensor_158d00012d77c4
+      to: 'on'
+  condition:
+    - condition: state 
+      entityid: inputboolean.gigiappenaentrato
+      state: 'on'
+    - condition: state 
+      entityid: inputboolean.martaappenaentrata
+      state: 'on'
+  action:
+    - service: inputboolean.turnoff
+      entityid: inputboolean.gigiappenaentrato
+    - service: inputboolean.turnoff
+      entityid: inputboolean.martaappenaentrata
+    - service: tts.google_say
+      entityid: mediaplayer.piloty
+      data: 
+        message: 'benvenuti marta e gigi'
