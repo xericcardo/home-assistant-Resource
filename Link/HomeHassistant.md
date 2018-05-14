@@ -13,6 +13,9 @@ https://www.yaub.it/category/domotica/homeassistant/
 
 https://www.itchsblog.it/
 
+#### Antifurto con sensori xiaomi
+https://github.com/sdesalve/dss_xiaomi_alarm
+
 #### Installazione
 http://www.tanzolab.it/home_assistant
 
