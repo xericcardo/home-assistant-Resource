@@ -25,7 +25,9 @@ Linee orrizontali nei box:  https://github.com/covrig/homeassistant-hline
 
 Pannello di controllo : http://reformedreality.com/home-assistant-control-panel
 
-Pannello: http://appdaemon.readthedocs.io/en/latest/DASHBOARD_CREATION.html
+Tiles: http://appdaemon.readthedocs.io/en/latest/DASHBOARD_CREATION.html
+
+Tiles : https://github.com/c727/home-assistant-tiles
 
 #### Rilevamento presenza
 https://philhawthorne.com/making-home-assistants-presence-detection-not-so-binary/
