@@ -1,5 +1,5 @@
-by Luigi Duchi
-
+# by Luigi Duchi
+# www.vincenzocaputo.com
 sensor:
   - platform: command_line
     name: SSL cert expiry
