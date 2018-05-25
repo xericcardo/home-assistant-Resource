@@ -1,5 +1,6 @@
 # queste sono tre automazioni con le tre modalità di pressione salvatele e studiale
 # by Luigi Duchi
+# www.vincenzocaputo.com
 - alias: pulsante 1
   trigger:
     platform: event
