@@ -15,6 +15,8 @@ https://www.yaub.it/category/domotica/homeassistant/
 
 https://www.itchsblog.it/
 
+https://www.reddit.com/r/homeassistant/
+
 # Progetti
 
 Editor web based : https://github.com/voxic/ha-editor
