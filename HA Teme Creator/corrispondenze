@@ -1,0 +1,35 @@
+Powered By: Enrico e Nicolò . Telegram @enrico75s e @NicoInve per Hass.io with Sonoff/Xiaomi
+
+
+1-primary-color: "#e21453"
+2-disabled-text-color: "#803e52"
+3-divider-color: “#02c8e5”
+4-dark-primary-color: “#3d9018”
+5-primary-background-color: "#95391c"
+6-primary-text-color: "#3e600e"
+7-secondary-background-color: "#675335"
+8-secondary-text-color: "#600e57"
+9-text-primary-color: “#b280ad”
+10-label-badge-background-color: "var(–primary-backgroundcolor)"
+11-label-badge-text-color: “var(–text-primary-color)”
+12-paper-card-background-color: "#3a500c"
+13-paper-grey-50: "var(–text-primary-color)"     # questi il pallino degli interruttori
+14-paper-grey-200: "#DDD4C8"
+15-paper-item-icon-color: "#4a1e2a"
+16-paper-listbox-background-color: "#7cb69a"
+17-paper-listbox-color: “#6B3A1F”
+18-paper-card-header-color: "#7c7cb6"
+19-paper-item-icon-active-color: "#F7C02A"
+20-paper-item-icon_-_color: “#FF00FF”
+21-paper-slider-active-color: "#681096"
+22-paper-slider-knob-color: "#7d6988"
+23-paper-slider-knob-start-color: "#0f64a0"
+24-paper-slider-pin-color: "#FF00FF"
+25-paper-slider-secondary-color: “#A06020”
+26-paper-toggle-button-checked-ink-color: "#cf4c68"
+27-paper-toggle-button-checked-button-color: "#6b760c"
+28-paper-toggle-button-checked-bar-color: "#bfd600"
+29-paper-toggle-button-unchecked-bar-color: “#0018ff”
+30-table-row-background-color: "#00ff18"
+31-table-row-alternative-background-color: “#C67A2E”
+31-sidebar-icon-color:                          # le icone sulla sx
