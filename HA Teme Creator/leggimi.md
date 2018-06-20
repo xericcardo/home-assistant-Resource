@@ -1,10 +1,6 @@
 Prima versione del software per creare i temi su Home Assistant. funziona solo su windows
 
-14/06/2018
- Gestione dei colori con trasparenza
+![alt text](home-assistant-Resource/HA Teme Creator/HATC1.png "Description goes here")
 
 
-12/06/2018 
-
-Attualmente visualizza i temi con colori hex e argb.
-Salvataggio e visualizzazione del file
+![Preview] (https://github.com/xericcardo/home-assistant-Resource/blob/master/HA%20Teme%20Creator/HATC1.png?raw=true)
