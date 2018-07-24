@@ -17,3 +17,7 @@ source bin/activate
 pip3 install --upgrade homeassistant
 
 alla fine dell'aggiornamento digitate exit e fate un riavvio completo (sudo reboot)
+
+#### Aggiornamento rasbian
+
+sudo apt-get update && sudo apt-get upgrade -y
