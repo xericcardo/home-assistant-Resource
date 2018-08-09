@@ -21,3 +21,9 @@ alla fine dell'aggiornamento digitate exit e fate un riavvio completo (sudo rebo
 #### Aggiornamento rasbian
 
 sudo apt-get update && sudo apt-get upgrade -y
+
+o
+
+Type in the following commands to update and upgrade Raspbian.
+sudo apt-get update
+sudo apt-get upgrade
