@@ -27,3 +27,15 @@ o
 Type in the following commands to update and upgrade Raspbian.
 sudo apt-get update
 sudo apt-get upgrade
+
+
+rinnovo certificato
+
+
+#entro utente ha
+sudo su -s /bin/bash homeassistant
+#entro nella cartella
+cd dehydrated
+
+#rigenero certificato
+./dehydrated -c
