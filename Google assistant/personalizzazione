@@ -1,0 +1,13 @@
+Controllo dispositivi con la voce.
+Qui https://www.home-assistant.io/blog/2018/04/24/launch-google-assistant-support/ spiega che ora il supporto è integrato e come configurarlo. 
+Scollegare il software standard che potrebbe interferire con Home Assistant
+
+Ho anche specificato per Assistente Google che il mio dispositivo ha chiamato "AquosTv" 
+(cambia il tipo di dispositivo e fan il nome che ho dato) a cui dovrebbe essere riferito con il nome "TV". 
+Quindi nel file configuration.yaml, nella sezione "homeassistant:" nella sezione "personalizza:" 
+ho aggiunto questo segmento di codice:
+
+media_player.aquostv:
+  friendly_name: Tv
+  google_assistant: true
+  google_assistant_name: Tv
